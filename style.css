@@ -1,0 +1,295 @@
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    background-color: #FFFAFA;
+    text-align: center;
+    width: 100%;
+}
+
+#navs {
+    position: fixed;
+
+
+    width: 100%;
+
+    z-index: 100;
+    top: 0;
+    left: 0;
+    font-family: 'Oswald', sans-serif;
+
+}
+
+
+
+/* icons */
+.fa {
+    /* padding: 20px; */
+    font-size: 70px;
+    width: 15%;
+
+  align-content: center;
+    text-decoration: none;
+    /* margin: 5px 2px; */
+
+}
+
+.fa:hover {
+    opacity: 1.2;
+}
+
+.fa-facebook {
+
+    color: white;
+}
+
+.fa-twitter {
+
+    color: white;
+}
+
+
+.fa-linkedin {
+
+    color: white;
+}
+
+
+.fa-instagram {
+    /* background: #125688; */
+    color: white;
+}
+
+a {
+    color: #fff;
+    text-transform: uppercase;
+    font-family: Hind, sans-serif;
+    /* font-family: 'Girassol', cursive; */
+    font-weight: 200;
+
+}
+
+
+
+.resume_link {
+    border: 2px solid darkkhaki;
+    width: 50%;
+    line-height: 80px;
+    text-align: center;
+    border-radius: 13px;
+    background-color: black;
+
+}
+
+.resume :hover {
+    background-color: lightblue;
+}
+
+.resume {
+    text-align: center;
+}
+
+/* body */
+
+#about_container {
+    height: 100vh;
+    padding-top: 10%;
+}
+
+.horizontally_centered_text {
+    text-align: center;
+}
+
+#about_photo img {
+
+    /* background-image: url(./Images/pamela2.jpg); */
+    background-size: contain;
+    border-radius: 50%;
+width: 50%;
+    background-position: left;
+
+}
+
+#about {
+    margin-top: 0px;
+    padding-bottom: 10%;
+
+}
+
+
+
+
+/* testimonials */
+.container_pro h1 {
+
+    font-weight: lighter;
+}
+
+.container_pro span {
+    font-family: 'Ma Shan Zheng', cursive;
+    font: italic;
+}
+
+#testimonials .container-fluid {
+    padding: 100px;
+    background-color: rgba(8, 7, 7, 0.90);
+    margin-top: 5%;
+}
+
+.carousel-inner .carousel-item .img-box {
+    width: 135px;
+    height: 135px
+}
+
+.carousel-control-prev {
+    left: -100px;
+}
+
+.carousel-control-next {
+    right: -100px;
+}
+
+.carousel-indicators {
+    top: 330px
+}
+
+
+
+
+/* contact */
+
+/* .container-contact {
+    padding-top: 20%;
+} */
+
+.contact-sec h2 {
+    font-size: 28px;
+    color: #fff;
+    font-weight: 600;
+    /* padding: 15px o; */
+}
+
+.contact-sec p {
+    color: #fff;
+    font-weight: 600;
+    /* padding: 15px 0; */
+}
+
+#contact {
+    padding-top: 5%;
+    padding-bottom: 4%;
+    width: 1;
+    background-color: rgba(8, 7, 7, 0.90);
+}
+
+.form-group {
+    margin-left: 20%;
+    margin-right: 20%;
+}
+
+#contact btn-primary {
+    background-color: 3px;
+   
+}
+
+/* projects */
+
+#projects {
+    margin-bottom: 5%;
+    margin-left: 0px;
+    margin-right: 0px;
+    margin-top: 5%;
+
+}
+
+
+.single-blog {
+    box-shadow: 0px 0px 20px 1px rgba(0, 0, 0, 0.2);
+    padding: 5px;
+    margin-top: 30px;
+    background-color: #fff;
+}
+
+.single-blog img {
+    width: 100%;
+}
+
+.blog-meta {
+    font-size: 4px;
+    margin-bottom: 2px;
+}
+
+.single-blog span {
+    float: right;
+    font-size: 12px;
+    color: cornflowerblue;
+}
+
+.blog-text {
+    font-size: 14px;
+    text-align: justify;
+}
+
+.single-blog h2 {
+    margin-top: 10px;
+    font-size: 18px;
+    color: #007bff;
+    font-family: monospace;
+}
+
+.single-blog h2 a {
+    text-decoration: none;
+}
+
+
+.text-center ul li{
+    list-style: none;
+    float: right;
+    padding-right: 20px;
+    font-size: 20px;
+}
+.bottomdiv h1{
+    font-size: 22px;
+}
+
+.read-more-btn {
+    
+    padding: 5px 12x 8px;
+    border-radius: 30px;
+    line-height: 40px;
+    font-size: 14px;
+    color: #fff;
+    border: none ! important;
+}
+
+@media screen and (min-width:601px) {
+    #about_photo {
+
+        width: 50%;
+        margin: 5px;
+    }
+
+    #about_container {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+}
+
+/* @media screen and (min-width:601px) {
+    #about_photo {
+        width: 20%;
+        margin: 205px;
+    }
+} */
+
+@media screen and (max-width:1492px) {
+    .container_content {
+        /* width: 20%;
+        margin: 205px; */
+        display: flex;
+        flex-direction: column;
+
+    }
+}
